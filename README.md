@@ -57,3 +57,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## attente  
+
+ce que le prof demande  :
+
+A la presentation de il faut presenter
+
+---- l'architecture de donnees (ETL), 
+--- API qui expose les donnees dans la base de donnnees 
+--- note explicatif 
+--- deployer sur render.com (pas ca)
+--- google data studio pour la visualisaton de donnees 
+
+
+source de données   
+site web
+immo asskk
+coin afrique 
+facebook
+pdf(otr)
+ forcement enregistrer les indices de l'otr dans la bd 
+ checker la structure de la bd sur le fichier , calculer les variance des prix , indiquer la source de la donnees
+  
+  en dehors de la bd, aller sur google data studio pour la visualisaton de donnee 
+
+  il veut la modelisation des donnnees 
+
+  remplir les surface automatiquement (facultatif)
