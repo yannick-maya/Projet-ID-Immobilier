@@ -86,3 +86,8 @@ pdf(otr)
   il veut la modelisation des donnnees 
 
   remplir les surface automatiquement (facultatif)
+
+
+  LIGNE ET LES CALCULS
+
+PROCEDURE DES CALCULS ET DE TRAITEMENT 

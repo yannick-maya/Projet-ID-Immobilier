@@ -549,7 +549,7 @@ class IDImmobilierCleanerV2:
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         
         if format == 'csv':
-            filename = f'data_id_immobilier_optimise_{timestamp}.csv'
+            filename = f'id_immobilier_optimise_{timestamp}.csv'
             df_export.to_csv(filename, index=False, encoding='utf-8-sig')
         elif format == 'excel':
             filename = f'id_immobilier_optimise_{timestamp}.xlsx'
@@ -577,10 +577,8 @@ def main():
     print()
     
     # Charger
-    df = pd.read_csv('dataset_facebook-marketplace-scraper_2026-02-12_11-20-56-049 (1).csv')
+    df = pd.read_csv('/mnt/user-data/uploads/1770856556826_dataset_test_2026-02-12_00-27-35-233.csv')
     print(f"📂 {len(df)} lignes chargées\n")
-    print(df.columns)
-
     
     # Nettoyer
     cleaner = IDImmobilierCleanerV2()
